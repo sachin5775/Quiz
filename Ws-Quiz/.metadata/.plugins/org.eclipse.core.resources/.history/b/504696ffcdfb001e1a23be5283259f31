@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "What is Java?",
+    "qid": 1
+  },
+  {
+    "id": 2,
+    "name": "What are the main features of Java?",
+    "qid": 1
+  },
+  {
+    "id": 3,
+    "name": "What is the difference between JDK, JRE, and JVM?",
+    "qid": 1
+  },
+  {
+    "id": 4,
+    "name": "What is the purpose of the 'static' keyword in Java?",
+    "qid": 1
+  },
+  {
+    "id": 5,
+    "name": "What are constructors in Java?",
+    "qid": 1
+  },
+  {
+    "id": 6,
+    "name": "What is inheritance in Java?",
+    "qid": 1
+  },
+  {
+    "id": 7,
+    "name": "What is the difference between method overloading and method overriding?",
+    "qid": 1
+  },
+  {
+    "id": 8,
+    "name": "What is the 'this' keyword in Java?",
+    "qid": 1
+  },
+  {
+    "id": 9,
+    "name": "What is the purpose of the 'final' keyword in Java?",
+    "qid": 1
+  },
+  {
+    "id": 10,
+    "name": "What is an interface in Java?",
+    "qid": 1
+  }
+]

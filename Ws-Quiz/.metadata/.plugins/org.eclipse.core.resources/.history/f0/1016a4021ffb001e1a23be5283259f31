@@ -1,0 +1,26 @@
+package com.question;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.List;
+
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+
+import com.example.demo.Services.UserService;
+import com.example.demo.model.User;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.question.entities.Question;
+import com.question.services.QuestionService;
+
+@SpringBootApplication
+public class ServiceQuestionApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ServiceQuestionApplication.class, args);
+	}
+	
+}

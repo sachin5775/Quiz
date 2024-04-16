@@ -1,0 +1,32 @@
+package com.quiz.services.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.quiz.entities.Quiz;
+import com.quiz.repositories.QuizRepository;
+import com.quiz.services.QuizService;
+
+
+public class QuizServiceImpl implements QuizService {
+	@Autowired
+	QuizRepository quizRepository;
+
+	@Override
+	public Quiz add(Quiz quiz) {
+		return quizRepository.save(quiz);
+	}
+
+	@Override
+	public List<Quiz> get() {
+		return quizRepository.findAll();
+	}
+
+	@Override
+	public Quiz getById(Long id) {
+		Quiz quiz = quizRepository.findById(id).orElseThrow(() -> new RuntimeException("Nothing to find"));
+		return quiz;
+	}
+
+}

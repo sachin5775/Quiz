@@ -1,0 +1,13 @@
+package com.quiz.services;
+
+import java.util.List;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+import com.quiz.entities.Question;
+
+@FeignClient(url = "http://localhost:8090",value = "Question-Client")
+public interface QuestionClient {
+
+	List<Question> getQuestionofQuiz();
+}

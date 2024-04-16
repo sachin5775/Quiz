@@ -1,0 +1,9 @@
+com\quiz\controller\QuizController.class
+com\quiz\repositories\QuizRepository.class
+com\quiz\services\QuestionClient.class
+com\quiz\entities\Quiz.class
+com\quiz\services\QuizService.class
+com\quiz\ServiceQuizApplication.class
+com\quiz\ServiceQuizApplication$1.class
+com\quiz\entities\Question.class
+com\quiz\services\impl\QuizServiceImpl.class

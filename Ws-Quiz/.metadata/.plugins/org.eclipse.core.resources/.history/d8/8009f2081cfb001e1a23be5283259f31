@@ -1,0 +1,15 @@
+package com.question.services;
+
+import java.util.Optional;
+
+import com.question.entities.Question;
+
+public interface QuestionService {
+	Question addQuestionquest(Question question);
+
+	Iterable<Question> getall();
+
+	Optional<Question> getQuestionByid(Long id);
+	
+	Optional<Question> getQuestionForQuiz(Long qid);
+}

@@ -1,0 +1,39 @@
+package com.question;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.List;
+
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.question.entities.Question;
+import com.question.services.QuestionService;
+
+@SpringBootApplication
+public class ServiceQuestionApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ServiceQuestionApplication.class, args);
+	}
+	@Bean
+    CommandLineRunner runner(QuestionService userService) {
+        return args -> {
+            // read json and write to db
+            ObjectMapper mapper = new ObjectMapper();
+            TypeReference<List<Question>> typeReference = new TypeReference<List<Question>>(){};
+            InputStream inputStream = TypeReference.class.getResourceAsStream("/json/quiz.json");
+            try {
+                List<Question> users = mapper.readValue(inputStream,typeReference);
+                userService.
+                System.out.println("Users Saved!");
+            } catch (IOException e){
+                System.out.println("Unable to save users: " + e.getMessage());
+            }
+        };
+    }
+}

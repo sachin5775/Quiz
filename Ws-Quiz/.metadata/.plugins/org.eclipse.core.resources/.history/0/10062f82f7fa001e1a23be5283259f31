@@ -1,0 +1,14 @@
+package com.question.services;
+
+import java.util.List;
+
+import com.question.entities.Quiz;
+
+public interface QuizService {
+	Quiz add(Quiz quiz);
+
+	List<Quiz> get();
+
+	Quiz getById(Long id);
+
+}

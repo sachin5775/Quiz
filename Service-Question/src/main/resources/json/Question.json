@@ -1,0 +1,152 @@
+[
+	{
+		"id": 1,
+		"name": "What is Java?",
+		"qid": 1
+	},
+	{
+		"id": 2,
+		"name": "What are the main features of Java?",
+		"qid": 1
+	},
+	{
+		"id": 3,
+		"name": "What is the difference between JDK, JRE, and JVM?",
+		"qid": 1
+	},
+	{
+		"id": 4,
+		"name": "What is the purpose of the 'static' keyword in Java?",
+		"qid": 1
+	},
+	{
+		"id": 5,
+		"name": "What are constructors in Java?",
+		"qid": 1
+	},
+	{
+		"id": 6,
+		"name": "What is inheritance in Java?",
+		"qid": 1
+	},
+	{
+		"id": 7,
+		"name": "What is the difference between method overloading and method overriding?",
+		"qid": 1
+	},
+	{
+		"id": 8,
+		"name": "What is the 'this' keyword in Java?",
+		"qid": 1
+	},
+	{
+		"id": 9,
+		"name": "What is the purpose of the 'final' keyword in Java?",
+		"qid": 1
+	},
+	{
+		"id": 10,
+		"name": "What is an interface in Java?",
+		"qid": 1
+	},
+	{
+		"id": 11,
+		"name": "What is Python?",
+		"qid": 2
+	},
+	{
+		"id": 12,
+		"name": "What are the main features of Python?",
+		"qid": 2
+	},
+	{
+		"id": 13,
+		"name": "What are the differences between Python 2 and Python 3?",
+		"qid": 2
+	},
+	{
+		"id": 14,
+		"name": "What are the basic data types in Python?",
+		"qid": 2
+	},
+	{
+		"id": 15,
+		"name": "What is a Python dictionary?",
+		"qid": 2
+	},
+	{
+		"id": 16,
+		"name": "How do you create a Python function?",
+		"qid": 2
+	},
+	{
+		"id": 17,
+		"name": "What is list comprehension in Python?",
+		"qid": 2
+	},
+	{
+		"id": 18,
+		"name": "What is the difference between '==' and 'is' in Python?",
+		"qid": 2
+	},
+	{
+		"id": 19,
+		"name": "How do you handle exceptions in Python?",
+		"qid": 2
+	},
+	{
+		"id": 20,
+		"name": "What are Python modules?",
+		"qid": 2
+	},
+	{
+		"id": 21,
+		"name": "What is C++?",
+		"qid": 3
+	},
+	{
+		"id": 22,
+		"name": "What are the main features of C++?",
+		"qid": 3
+	},
+	{
+		"id": 23,
+		"name": "What is the difference between C and C++?",
+		"qid": 3
+	},
+	{
+		"id": 24,
+		"name": "What are namespaces in C++?",
+		"qid": 3
+	},
+	{
+		"id": 25,
+		"name": "What are the basic data types in C++?",
+		"qid": 3
+	},
+	{
+		"id": 26,
+		"name": "How do you define a class in C++?",
+		"qid": 3
+	},
+	{
+		"id": 27,
+		"name": "What is inheritance in C++?",
+		"qid": 3
+	},
+	{
+		"id": 28,
+		"name": "What is the difference between 'public', 'private', and 'protected' in C++?",
+		"qid": 3
+	},
+	{
+		"id": 29,
+		"name": "What is polymorphism in C++?",
+		"qid": 3
+	},
+	{
+		"id": 30,
+		"name": "What are virtual functions in C++?",
+		"qid": 3
+	}
+]

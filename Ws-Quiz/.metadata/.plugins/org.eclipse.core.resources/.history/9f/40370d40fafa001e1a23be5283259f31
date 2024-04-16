@@ -1,0 +1,13 @@
+package com.question.services;
+
+import java.util.List;
+
+import com.question.entities.Question;
+
+public interface QuestionService {
+	Question addQuestionquest(Question question);
+
+	List<Question> getall();
+
+	Question getQuestionByid(Long id);
+}

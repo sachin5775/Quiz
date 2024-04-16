@@ -1,0 +1,36 @@
+package com.question.services.impl;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.question.entities.Question;
+import com.question.repositories.QuestionRepositories;
+import com.question.services.QuestionService;
+@Service
+public class QuestionServiceImpl implements QuestionService {
+	@Autowired
+	QuestionRepositories questionRepositories;
+
+	@Override
+	public Question addQuestionquest(Question question) {
+		return questionRepositories.save(question);
+	}
+
+	@Override
+	public Iterable<Question> getall() {
+		return questionRepositories.findAll();
+	}
+
+	@Override
+	public Optional<Question> getQuestionByid(Long id) {
+		return questionRepositories.findById(id);
+	}
+
+	@Override
+	public Optional<Question> getQuestionForQuiz(Long qid) {
+		return questionRepositories.findById(qid);
+	}
+
+}
